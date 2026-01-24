@@ -77,6 +77,7 @@ public class Main {
     // Metodos para IMC
 
     /**
+     *
      * Metodo que retorna un valor capturado en la terminal
      * @param sc previamente declarado en main
      * @param mensaje es un parametro
