@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demoprueba.HelloController">
+
+    <children>
+        <Label layoutX="200.0" layoutY="150.0" style="-fx-font-size: 24px;" text="¡Bienvenido al Sistema!" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="17.0" />
+         </font></Label>
+        <Label fx:id="lblUsuarioLogueado" layoutX="250.0" layoutY="200.0" text="Usuario" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="17.0" />
+         </font></Label>
+    </children>
+</AnchorPane>
